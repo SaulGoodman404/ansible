@@ -1,0 +1,6 @@
+---
+- name: Test verbinding met alle hosts
+  hosts: all
+  tasks:
+    - name: Test verbinding met de ping module
+      ping:
